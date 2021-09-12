@@ -23,44 +23,58 @@
   <body>
     <!-- Шапка сайта -->
 
-    <header>
-      <a href="/"
-        ><img src="./image/header/Logo.svg" alt="Logo" /> Байкальский отдых
-        Турагентство</a
-      >
-      <ul>
-        <li>
-          <a href="tel:89243541540">8-924-3-541-540</a>
-        </li>
-        <li>
-          <a href="mailto:baikalholiday@mail.ru">baikalholiday@mail.ru</a>
-        </li>
-        <li>
-          <button type="button">Обратный звонок</button>
-        </li>
-      </ul>
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <a class="header-logo" href="/"
+            ><img
+              class="header-logo-image"
+              src="./image/header/Logo.svg"
+              alt="Logo"
+            />
+            <p>
+              Байкальский отдых
+              <span class="header-logo-two">Турагентство</span>
+            </p>
+          </a>
+          <ul>
+            <li>
+              <a class="header-connect" href="tel:89243541540"
+                >8-924-3-541-540</a
+              >
+            </li>
+            <li>
+              <a class="header-connect" href="mailto:baikalholiday@mail.ru"
+                >baikalholiday@mail.ru</a
+              >
+            </li>
+          </ul>
 
-      <!-- Навигация -->
+          <button class="header-btn" type="button">Обратный звонок</button>
+        </div>
 
-      <nav>
-        <ul>
-          <li>
-            <a href="">Бронирование</a>
-          </li>
-          <li>
-            <a href="">Экскурсии</a>
-          </li>
-          <li>
-            <a href="">Туры на Байкал</a>
-          </li>
-          <li>
-            <a href="">О Байкале</a>
-          </li>
-          <li>
-            <a href="">О нас</a>
-          </li>
-        </ul>
-      </nav>
+        <!-- Навигация -->
+
+        <nav>
+          <ul>
+            <li>
+              <a class="header-navigation" href="">Бронирование</a>
+            </li>
+            <li>
+              <a class="header-navigation" href="">Экскурсии</a>
+            </li>
+            <li>
+              <a class="header-navigation" href="">Туры на Байкал</a>
+            </li>
+            <li>
+              <a class="header-navigation" href="">О Байкале</a>
+            </li>
+            <li>
+              <a class="header-navigation" href="">О нас</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- Тело сайта -->
@@ -69,13 +83,15 @@
       <!-- Блок Герой -->
 
       <section class="hero">
-        <h1 class="hero-title">Путешествия по Байкалу</h1>
-        <p class="hero-subtitle">
-          Туры по самому красивому месту России. Поехали с нами за новыми
-          впечатлениями!
-        </p>
-        <a class="hero-link" href="">подобрать тур</a>
-        <a class="hero-arrow" href="">&#8595;</a>
+        <div class="container">
+          <h1 class="hero-title">Путешествия по Байкалу</h1>
+          <p class="hero-subtitle">
+            Туры по самому красивому месту России. Поехали с нами за новыми
+            впечатлениями!
+          </p>
+          <a class="hero-link" href="">подобрать тур</a>
+          <a class="hero-arrow" href="">&#8595;</a>
+        </div>
       </section>
 
       <!-- direction -->
